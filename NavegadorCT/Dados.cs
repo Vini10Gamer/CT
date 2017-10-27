@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace NavegadorCT
 {
-    public  class Class1
+    public static class Dados
     {
-        enum Destinos {
+        public enum Destinos {
             Partida,
             DC1,
             DC2,
@@ -17,6 +17,5 @@ namespace NavegadorCT
             DC5,
             Parada
         }
-
     }
 }
